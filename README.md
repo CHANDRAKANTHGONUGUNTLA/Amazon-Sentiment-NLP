@@ -1,6 +1,16 @@
 # Sentiment Analysis on Amazon Fire Stick Reviews
 ### Introduction
 This project aims to perform sentiment analysis on Amazon product reviews using natural language processing (NLP) techniques. The sentiment analysis is conducted to classify the sentiment of the reviews into positive, negative, or neutral categories based on the ratings provided by users.
+## DATA EXTRACTION
+We did in 2 ways
+
+#### 1. Amazon Review Export
+We have used Amazon Review Export 
+simple tool for exporting product reviews from Amazon and downloading them into a .csv file.
+<img width="311" alt="image" src="https://github.com/CHANDRAKANTHGONUGUNTLA/Amazon-Sentiment-Analysis-Analyzing-Customer-Feedback-on-Products/assets/97879005/8e1d80e0-50cb-470a-828e-943073abfc53">
+#### 2. SCRAPY
+We also extracted the data using scrapy
+<img width="439" alt="image" src="https://github.com/CHANDRAKANTHGONUGUNTLA/Amazon-Sentiment-Analysis-Analyzing-Customer-Feedback-on-Products/assets/97879005/4a9a0a57-1223-4b64-8d3f-657e1cdbd823">
 
 ### Importing Necessary Libraries
 ```python
@@ -266,3 +276,6 @@ joblib.dump(bow, 'count_vectorizer.pkl')
 joblib.dump(classifier, 'model.pkl')
 ```
 Finally, both the CountVectorizer (bow) and the trained RandomForestClassifier (classifier) are saved to separate files using the joblib library. These saved objects can be loaded later for making predictions on new text data without needing to retrain the model or recompute the vectorization process.
+
+## Deployment:
+<img width="686" alt="image" src="https://github.com/CHANDRAKANTHGONUGUNTLA/Amazon-Sentiment-Analysis-Analyzing-Customer-Feedback-on-Products/assets/97879005/179ac509-ca87-4a8f-a52f-86348a28112b">
