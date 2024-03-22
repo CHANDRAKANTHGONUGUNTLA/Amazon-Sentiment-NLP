@@ -3,11 +3,12 @@
 This project aims to perform sentiment analysis on Amazon product reviews using natural language processing (NLP) techniques. The sentiment analysis is conducted to classify the sentiment of the reviews into positive, negative, or neutral categories based on the ratings provided by users.
 ## DATA EXTRACTION
 We did in 2 ways
-
 #### 1. Amazon Review Export
 We have used Amazon Review Export 
 simple tool for exporting product reviews from Amazon and downloading them into a .csv file.
 <img width="311" alt="image" src="https://github.com/CHANDRAKANTHGONUGUNTLA/Amazon-Sentiment-Analysis-Analyzing-Customer-Feedback-on-Products/assets/97879005/8e1d80e0-50cb-470a-828e-943073abfc53">
+
+
 #### 2. SCRAPY
 We also extracted the data using scrapy
 <img width="439" alt="image" src="https://github.com/CHANDRAKANTHGONUGUNTLA/Amazon-Sentiment-Analysis-Analyzing-Customer-Feedback-on-Products/assets/97879005/4a9a0a57-1223-4b64-8d3f-657e1cdbd823">
